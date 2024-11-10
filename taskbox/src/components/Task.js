@@ -1,4 +1,4 @@
-
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -62,4 +62,6 @@ Task.propTypes = {
   onArchiveTask: PropTypes.func,
   /** Event to change the task to pinned */
   onPinTask: PropTypes.func,
+  taskboxState: PropTypes.string,  // `string` の例、必要に応じて型を調整
+  children: PropTypes.node,
 };
